@@ -1,0 +1,8 @@
+body, html {
+    margin: 0;
+    width: auto;
+}
+
+.chart {
+    font-family: "Helvetica", sans-serif;
+}
