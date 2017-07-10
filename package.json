@@ -1,0 +1,30 @@
+{
+  "name": "d3-starter",
+  "version": "0.1.0",
+  "description": "Starter for D3 projects",
+  "author": "Raheel Ahmad",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2017"
+    ]
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "d3": "^4.9.1"
+  }
+}
